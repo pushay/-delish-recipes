@@ -1,0 +1,87 @@
+.home {
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    margin-left: 230px;
+
+    &__background {
+        position: relative;
+        background-image: url('../../Images/fruits.jpg');
+        background-position: center;
+        height: 1110px;
+        box-shadow: 4px 4px 15px rgb(95, 94, 94);
+    }
+}
+
+.findStore {
+    background-image: url('../../Images/restaurant.jpg');
+    background-position: bottom;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+
+    &__box {
+        width: 450px;
+        height: 250px;
+        background-color: rgb(248, 245, 245);
+        box-shadow: 2px 2px 10px black;
+        
+    }
+}
+
+// MEDIA QUERIES
+
+@media screen and (max-width: 1600px) {
+    
+}
+
+@media screen and (max-width: 1400px) {
+    .home__background {
+        height: 750px;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    .findStore {
+
+        &__box {
+            width: 350px;
+            height: 280px;
+        }
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    .home {
+        margin-left: 190px;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .home {
+        margin-left: 0px;
+    }
+}
+
+
+@media screen and (max-width: 550px) {
+    .findStore {
+        height: 500px;
+        
+        &__box {
+            width: 250px;
+            height: 280px;
+        }
+    }
+}
+@media screen and (max-width: 400px) {
+    .findStore {
+
+        &__box {
+            width: 230px;
+            height: 280px;
+        }
+    }
+}

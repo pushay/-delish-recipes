@@ -1,0 +1,22 @@
+.FilterSortArea {
+    margin: 3rem 9rem 0rem 8.5rem;
+    border-bottom: 2px solid var(--color-border);
+    @include area(0.9rem, 0px, 0 0 0.5rem 0, black, white );
+    font-weight: bold;
+    align-items: center;
+    display: flex;
+    
+}
+
+@media screen and (max-width: 600px) {
+    .FilterSortArea {
+        margin: 3rem 4rem 0rem 4rem;
+    }
+
+}
+@media screen and (max-width: 400px) {
+    .FilterSortArea {
+        margin: 3rem 3rem 0rem 3rem;
+    }
+
+}

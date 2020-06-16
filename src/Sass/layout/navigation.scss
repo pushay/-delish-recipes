@@ -1,0 +1,51 @@
+.navigation {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 200px;
+    align-items: center;
+    margin-right: 1rem;
+    
+    
+    &__primary {
+        display: flex;
+        align-items: center;
+    }
+
+    &__item {
+        margin-bottom: 0.7rem;
+        list-style: none;
+
+        &--link {
+
+            @include link(black);
+
+           &:hover,
+           &:active {
+               border-bottom: 3px solid var(--color-secondary);
+           }
+        }
+
+        &--svg {
+            margin-right: 1rem;
+            margin-bottom: 0.3rem;
+        }    
+    }
+}
+
+.hamburger {
+    @include positioning(absolute, 2%, null, null, 3%)
+}
+
+@media screen and (max-width: 2100px) {
+    .hamburger {
+        display: none;
+    }
+}
+@media screen and (max-width: 850px) {
+    .hamburger {
+        display: block;
+        z-index: 10000000;
+    }
+}
+

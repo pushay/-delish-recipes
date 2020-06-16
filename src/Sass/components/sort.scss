@@ -1,0 +1,45 @@
+.sort {
+    display: flex;
+    justify-content: flex-end;
+    width: 1335px;
+    align-items: center;
+    position: relative;
+    z-index: 100000;
+   
+   &__svg {
+       transform: rotate(180deg);
+       margin-bottom: 0.3rem;
+       margin-left:0.3rem;
+   }
+   
+   &__dropdown {
+       @include positioning(absolute, 132%, 0%, null, null);
+       border: 2px solid var(--color-secondary);
+       box-shadow: 2px 2px 6px rgb(48, 48, 48);
+        display: none;
+       &:last-child { border-bottom: 0px;}
+
+    &--element {
+        list-style: none;
+        padding: 0.7rem 1rem;
+        color: rgb(13, 13, 14);
+        border-bottom:2px solid var(--color-secondary);
+        cursor: pointer;
+
+    }
+   }
+}
+
+@media screen and (max-width: 390px) {
+    .sort {
+        &__dropdown {
+
+            &--element {
+                text-align: center;
+                padding: 0.7rem 0.5rem;
+
+            }
+        }
+    }
+
+}

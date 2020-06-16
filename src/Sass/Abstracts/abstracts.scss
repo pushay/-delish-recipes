@@ -1,0 +1,33 @@
+//  VARIABLES
+
+:root {
+    --color-primary: #D62828;
+    --color-secondary:#5A8392;
+    --color-border: #949393;
+
+}
+
+// MIXINS 
+
+@mixin link($color) {
+    color:$color;
+    text-decoration:none;
+    font-weight: bold;
+}
+
+@mixin area($font-size, $border-radius, $padding, $color, $background-color) {
+    font-size: $font-size;
+    border-radius: $border-radius;
+    padding: $padding;
+    color: $color;
+    background-color: $background-color;
+}
+
+@mixin positioning($position, $top, $right, $bottom, $left) {
+    position: $position;
+    top:$top;
+    right:$right;
+    bottom:$bottom;
+    left: $left;
+    
+}

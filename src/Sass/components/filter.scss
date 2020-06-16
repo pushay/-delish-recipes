@@ -1,0 +1,11 @@
+.filter {
+    padding-right:1rem;
+    border-right: 2px solid var(--color-border);
+    display: flex;
+    align-items: center;
+
+    &__svg {
+        margin-right:0.5rem;
+    }
+}
+

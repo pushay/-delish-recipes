@@ -1,0 +1,92 @@
+.filterQuestions {
+    margin: 1.5rem 8.5rem 0rem 8.5rem;
+    border-bottom: 2px solid var(--color-border);
+    padding: 2rem;
+
+    &__container {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        flex-direction: column;
+    }
+    &__div {
+        display: flex;
+
+        &--span {
+            font-size: 1.5rem;
+            color: var(--color-primary);
+            font-family: 'Permanent Marker', cursive;
+        }
+    }
+    &__answears {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 2rem;
+        
+        
+
+        &--list {
+            list-style: none;
+            margin-left: 2rem;
+            border-radius: 10px;
+            font-weight: bold;
+            cursor: pointer;
+            @include area(0.85rem, 10px, 0.5rem 2rem, white, var(--color-secondary))
+
+        }
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    .filterQuestions {
+
+        &__answears {
+            margin-bottom: 2rem;
+
+            &--list {
+                @include area(0.8rem, 10px, 0.7rem 1rem, white, var(--color-secondary));
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1215px) {
+    .filterQuestions {
+
+        &__answears {
+            margin-bottom: 1rem;
+
+            &--list {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+        }
+
+        &__div {
+            display: block;
+            text-align: center;
+
+            &--span {
+                margin-bottom: 1rem;
+                font-size: 1.7rem;
+            }
+        }
+    }
+
+}
+
+@media screen and (max-width: 500px) {
+    .filterQuestions {
+        padding:  1rem 0rem;
+        margin: 0 2rem;
+
+        &__answears {
+            &--list {
+                margin-left: 0.5rem;
+                @include area(0.75rem, 10px, 0.7rem 0.5rem, white, var(--color-secondary));
+            }
+        }
+    }
+
+}

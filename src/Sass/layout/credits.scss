@@ -1,0 +1,21 @@
+.credits {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 450px;
+
+    &__div {
+        margin-bottom: 2rem;
+
+        &--text {
+            text-align: center;
+        }
+    }
+
+    &__acknowledged {
+        font-size: 0.7rem;
+    
+    &--link {
+        @include link(black)
+    }}
+}

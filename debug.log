@@ -1,0 +1,18 @@
+[0602/113722.730:ERROR:process_reader_win.cc(123)] NtOpenThread: {Odmowa dostêpu} Proces za¿¹da³ dostêpu do obiektu, ale prawa dostêpu nie zosta³y przyznane. (0xc0000022)
+[0602/113722.750:ERROR:exception_snapshot_win.cc(98)] thread ID 11416 not found in process
+[0602/113722.806:ERROR:process_reader_win.cc(151)] SuspendThread: Odmowa dostêpu. (0x5)
+[0602/113722.810:ERROR:process_reader_win.cc(151)] SuspendThread: Odmowa dostêpu. (0x5)
+[0602/113722.810:ERROR:process_reader_win.cc(151)] SuspendThread: Odmowa dostêpu. (0x5)
+[0602/113722.810:ERROR:process_reader_win.cc(151)] SuspendThread: Odmowa dostêpu. (0x5)
+[0602/113722.810:ERROR:process_reader_win.cc(151)] SuspendThread: Odmowa dostêpu. (0x5)
+[0602/113722.810:ERROR:process_reader_win.cc(151)] SuspendThread: Odmowa dostêpu. (0x5)
+[0602/113722.814:ERROR:process_reader_win.cc(151)] SuspendThread: Odmowa dostêpu. (0x5)
+[0602/113722.814:ERROR:process_reader_win.cc(151)] SuspendThread: Odmowa dostêpu. (0x5)
+[0602/113722.814:ERROR:process_reader_win.cc(151)] SuspendThread: Odmowa dostêpu. (0x5)
+[0602/113722.814:ERROR:process_reader_win.cc(151)] SuspendThread: Odmowa dostêpu. (0x5)
+[0602/113722.814:ERROR:process_reader_win.cc(151)] SuspendThread: Odmowa dostêpu. (0x5)
+[0602/113722.814:ERROR:process_reader_win.cc(123)] NtOpenThread: {Odmowa dostêpu} Proces za¿¹da³ dostêpu do obiektu, ale prawa dostêpu nie zosta³y przyznane. (0xc0000022)
+[0602/113722.818:ERROR:exception_snapshot_win.cc(98)] thread ID 9716 not found in process
+[0602/113723.062:ERROR:process_reader_win.cc(151)] SuspendThread: Odmowa dostêpu. (0x5)
+[0602/113723.066:ERROR:process_reader_win.cc(151)] SuspendThread: Odmowa dostêpu. (0x5)
+[0602/113723.066:ERROR:exception_snapshot_win.cc(98)] thread ID 7228 not found in process

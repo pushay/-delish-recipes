@@ -1,0 +1,20 @@
+.ButtonContainer {
+    z-index: 100;
+}
+
+.Button__Kitchen {
+    font-family: inherit;
+    border: none;
+    margin-left: 1rem;
+    @include area(0.9rem, 30px, 0.7rem 1.5rem, white, var(--color-secondary));
+    
+    
+
+    &--link {
+        @include link(white);
+        font-family: inherit;
+        
+    }
+}
+
+

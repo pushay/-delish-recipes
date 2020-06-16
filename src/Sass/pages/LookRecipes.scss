@@ -1,0 +1,29 @@
+.lookRecipes {
+    width: 100%;
+    padding-left: 260px;
+}
+
+// MEDIA QUERIES 
+
+@media screen and (max-width: 1330px) {
+    .lookRecipes {
+        padding-left:180px
+    }
+    
+}
+
+@media screen and (max-width: 1200px) {
+    .lookRecipes {
+        padding-left:200px;
+    }
+    
+}
+
+
+@media screen and (max-width: 850px) {
+    .lookRecipes {
+        padding-left:0px;
+    }
+    
+}
+
