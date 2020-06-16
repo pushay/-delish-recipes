@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/delish-recipes/static/css/main.3c48fd1e.chunk.css",
+    "main.js": "/delish-recipes/static/js/main.a211fbc6.chunk.js",
+    "main.js.map": "/delish-recipes/static/js/main.a211fbc6.chunk.js.map",
+    "runtime-main.js": "/delish-recipes/static/js/runtime-main.0b8bad24.js",
+    "runtime-main.js.map": "/delish-recipes/static/js/runtime-main.0b8bad24.js.map",
+    "static/js/2.a4ee3e43.chunk.js": "/delish-recipes/static/js/2.a4ee3e43.chunk.js",
+    "static/js/2.a4ee3e43.chunk.js.map": "/delish-recipes/static/js/2.a4ee3e43.chunk.js.map",
+    "index.html": "/delish-recipes/index.html",
+    "precache-manifest.832ec9481eef84943c7b9dba13dfdd51.js": "/delish-recipes/precache-manifest.832ec9481eef84943c7b9dba13dfdd51.js",
+    "service-worker.js": "/delish-recipes/service-worker.js",
+    "static/css/main.3c48fd1e.chunk.css.map": "/delish-recipes/static/css/main.3c48fd1e.chunk.css.map",
+    "static/js/2.a4ee3e43.chunk.js.LICENSE.txt": "/delish-recipes/static/js/2.a4ee3e43.chunk.js.LICENSE.txt",
+    "static/media/dun.png": "/delish-recipes/static/media/dun.8c894c27.png",
+    "static/media/frog.png": "/delish-recipes/static/media/frog.405da6d7.png",
+    "static/media/main.scss": "/delish-recipes/static/media/restaurant.e9867233.jpg",
+    "static/media/green.png": "/delish-recipes/static/media/green.f775bfba.png",
+    "static/media/story.png": "/delish-recipes/static/media/story.598dea55.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0b8bad24.js",
+    "static/js/2.a4ee3e43.chunk.js",
+    "static/css/main.3c48fd1e.chunk.css",
+    "static/js/main.a211fbc6.chunk.js"
+  ]
+}
