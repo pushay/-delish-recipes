@@ -16,6 +16,7 @@
         font-size: 0.7rem;
     
     &--link {
-        @include link(black)
+        color: black;
+        text-decoration: none;
     }}
 }
