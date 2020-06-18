@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "89325d25885d34e7c92e8e2046055042",
+    "revision": "d2a05cb64f22469debea4f09d204c95b",
     "url": "/delish-recipes/index.html"
   },
   {
-    "revision": "04e27de157b228597a24",
-    "url": "/delish-recipes/static/css/main.3c48fd1e.chunk.css"
+    "revision": "a856fd295748b6ad4a2c",
+    "url": "/delish-recipes/static/css/main.3196068d.chunk.css"
   },
   {
     "revision": "68344bb3795758141440",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/delish-recipes/static/js/2.a4ee3e43.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "04e27de157b228597a24",
-    "url": "/delish-recipes/static/js/main.a211fbc6.chunk.js"
+    "revision": "a856fd295748b6ad4a2c",
+    "url": "/delish-recipes/static/js/main.61bf7eb2.chunk.js"
   },
   {
     "revision": "c074e79fd317855340e0",

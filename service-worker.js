@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/delish-recipes/precache-manifest.832ec9481eef84943c7b9dba13dfdd51.js"
+  "/delish-recipes/precache-manifest.64db0b7f186484f64bf87395bfb5726b.js"
 );
 
 self.addEventListener('message', (event) => {
